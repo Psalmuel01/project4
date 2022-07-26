@@ -1,5 +1,3 @@
-/* fix fonts, sizes and formats later */
-
 body {
   background-color: hsl(217, 54%, 11%);
   font-family: "Outfit";
@@ -59,17 +57,38 @@ hr {
   margin-right: 2%;
 }
 
+.img-bg {
+  position: relative;
+}
+
+.gradient {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  bottom: 0;
+  right: 5%;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  border-radius: 5px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradient:hover {
+  display: flex;
+  cursor: pointer;
+}
+
+.img-bg:hover .gradient {
+  display: flex;
+  transition: ease-in-out;
+}
+
 .equilibrium-img {
   width: 90%;
   margin: 5%;
   margin-bottom: 0;
   border-radius: 5px;
-  color: hsl(178, 100%, 50%);
-}
-
-.equilibrium-img:hover {
-  opacity: 0.4;
-  cursor: pointer;
 }
 
 .card-body {

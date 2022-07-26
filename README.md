@@ -3,4 +3,4 @@
 This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 
-- Live Site URL: (https://psalmuel01/project4.com)
+- Live Site URL: (https://psalmuel01.github.io/project4/)
