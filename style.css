@@ -65,7 +65,7 @@ hr {
   position: absolute;
   top: 5%;
   left: 5%;
-  bottom: 0;
+  bottom: 1%;
   right: 5%;
   background-color: hsla(178, 100%, 50%, 0.4);
   border-radius: 5px;
